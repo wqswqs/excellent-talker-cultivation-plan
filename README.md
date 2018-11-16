@@ -6,6 +6,7 @@ doing
 加入低频unknown词 2h  
 检查beam search 2h  
 GRU 2h  
+选取BLUE值最佳的模型 5h  
   
 中  
 中文词向量 2h  
@@ -13,7 +14,6 @@ beam size 增大到500
 检查cuda各计算过程的执行时间，看有无需优化之处 1h  
 batch增大到256 5h  
 应用BERT 20h  
-选取BLUE值最佳的模型 3h  
   
 低  
 应用page locked memory，提升cuda加速效果 3h  
