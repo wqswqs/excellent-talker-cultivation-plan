@@ -1,12 +1,10 @@
 # excellent-talker-cultivation-plan
 doing  
-开发交互模式 1h -> wqs
+选取BLUE值最佳的模型 5h -> wqs  
 
 高  
 加入低频unknown词 2h  
-检查beam search 2h  
 GRU 2h  
-选取BLUE值最佳的模型 5h  
   
 中  
 中文词向量 2h  
@@ -20,3 +18,6 @@ batch增大到256 5h
 改变参数的存取方式 3h  
 增加中文字特征 4h  
 使用人工标注的数据作为开发集和测试集。1h  
+
+done  
+开发交互模式 1h -> wqs 1h  
