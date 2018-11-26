@@ -2,9 +2,9 @@
 doing  
 选取BLUE值最佳的模型 5h -> wqs  
 应用attention模型，丰富上下文表示 5h -> wqs
+低频词设置为unknown，以减少显存占用，设cutoff为可调的超参数 4h -> wz 
 
 高  
-低频词设置为unknown，以减少显存占用 2h  
 应用GRU模型到对话 2h  
 应用中文词向量 2h  
 设发将训练batch增大到256 5h  
