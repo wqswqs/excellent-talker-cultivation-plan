@@ -1,6 +1,6 @@
 # excellent-talker-cultivation-plan
 doing  
-选取BLUE值最佳的模型 5h -> wqs 
+选取BLUE值最佳的模型 5h -> wqs  
 应用attention模型，丰富上下文表示 5h -> wqs
 
 高  
