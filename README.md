@@ -1,16 +1,18 @@
 # excellent-talker-cultivation-plan
 doing  
-选取BLUE值最佳的模型 5h -> wqs  
+选取BLUE值最佳的模型 5h -> wqs 
+应用attention模型，丰富上下文表示 5h -> wqs
 
 高  
-加入低频unknown词 2h  
-GRU 2h  
+低频词设置为unknown，以减少显存占用 2h  
+应用GRU模型到对话 2h  
+应用中文词向量 2h  
+设发将训练batch增大到256 5h  
+检查cuda各计算过程的执行时间，看有无需优化之处 1h  
+对对话的GPU实现做梯度检查 1h
   
 中  
-中文词向量 2h  
 beam size 增大到500  
-检查cuda各计算过程的执行时间，看有无需优化之处 1h  
-batch增大到256 5h  
 应用BERT 20h  
   
 低  
