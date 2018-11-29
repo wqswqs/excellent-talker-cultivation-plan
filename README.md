@@ -4,7 +4,7 @@ doing
 应用attention模型，丰富上下文表示 5h -> wqs  
 低频词设置为unknown，以减少显存占用，设cutoff为可调的超参数 4h -> wz  
 应用中文词向量 2h -> wz  
-修改cpu版本bug ->wz  
+修改cpu版本bug 3h ->wz  
 
 高  
 应用GRU模型到对话 2h  
