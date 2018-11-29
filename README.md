@@ -1,6 +1,5 @@
 # excellent-talker-cultivation-plan
 doing  
-选取BLUE值最佳的模型 5h -> wqs  
 应用attention模型，丰富上下文表示 5h -> wqs
 低频词设置为unknown，以减少显存占用，设cutoff为可调的超参数 4h -> wz 
 应用中文词向量 2h -> wz  
@@ -24,3 +23,4 @@ beam size 增大到500
 
 done  
 开发交互模式 1h -> wqs 1h  
+选取BLUE值最佳的模型 5h -> wqs 10h 只计算了BLEU值，没有据此选择最佳模型，判断不合适  
