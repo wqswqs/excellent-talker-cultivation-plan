@@ -12,6 +12,7 @@ doing
 对对话的GPU实现做梯度检查 1h  
 应用GPU实现解码过程 1h
 修改cpu版本bug
+
 中  
 beam size 增大到500  
 应用BERT 20h  
