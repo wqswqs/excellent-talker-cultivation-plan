@@ -4,14 +4,14 @@ doing
 应用attention模型，丰富上下文表示 5h -> wqs  
 低频词设置为unknown，以减少显存占用，设cutoff为可调的超参数 4h -> wz  
 应用中文词向量 2h -> wz  
-修改cpu版本bug 3h ->wz  
 
 高  
 应用GRU模型到对话 2h  
 设发将训练batch增大到256 5h  
 检查cuda各计算过程的执行时间，看有无需优化之处 1h  
 对对话的GPU实现做梯度检查 1h  
-应用GPU实现解码过程 1h
+应用GPU实现解码过程 1h  
+在词表为五万的情况下试试batch能开多大（gpu）
 
 中  
 beam size 增大到500  
