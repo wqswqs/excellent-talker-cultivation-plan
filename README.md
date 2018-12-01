@@ -1,6 +1,5 @@
 # excellent-talker-cultivation-plan
 doing  
-用困惑度选取最佳的模型参数 2h -> wqs  
 应用attention模型，丰富上下文表示 5h -> wqs  
 
 高  
@@ -27,3 +26,4 @@ done
 选取BLUE值最佳的模型 5h -> wqs 10h 只计算了BLEU值，没有据此选择最佳模型，判断不合适  
 应用中文词向量 2h -> wz  
 低频词设置为unknown，以减少显存占用，设cutoff为可调的超参数 4h -> wz 
+用困惑度选取最佳的模型参数 2h -> wqs  3h
