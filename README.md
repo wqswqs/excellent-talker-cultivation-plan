@@ -1,7 +1,7 @@
 # excellent-talker-cultivation-plan
 doing  
-应用attention模型，丰富上下文表示 5h -> wqs  3h 完成了相关重构
-解决n3ldg cuda在166上构建失败的问题 -> wqs 1h
+应用attention模型，丰富上下文表示 5h -> wqs  3h 完成了相关重构  
+解决n3ldg cuda在166上构建失败的问题 -> wqs 1h  
 
 高  
 弄清目前各参数的显存占用情况 3h  
