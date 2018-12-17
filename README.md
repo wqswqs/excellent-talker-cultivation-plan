@@ -1,6 +1,6 @@
 # excellent-talker-cultivation-plan
 doing  
-对GPU实现作梯度检查 3h -> wz
+对GPU实现作梯度检查 3h -> wz  
 完善beam search，实现过小概率的剪枝，支持100大小的beam size，以及对UNKOWN词作处理 3h -> wqs
 
 pending  
