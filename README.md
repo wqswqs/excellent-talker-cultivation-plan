@@ -1,9 +1,12 @@
 # excellent-talker-cultivation-plan
 doing  
+对GPU实现作梯度检查 3h -> wz
+完善beam search，实现过小概率的剪枝，支持100大小的beam size，以及对UNKOWN词作处理 3h -> wqs
+
+pending  
 应用attention模型，丰富上下文表示 5h -> wqs  3h 完成了相关重构  
 
 高  
-对GPU实现作梯度检查 3h  
 检查cuda各计算过程的执行时间，看有无需优化之处 1h  
 对对话的GPU实现做梯度检查 1h  
 在词表为五万的情况下试试batch能开多大（gpu）
