@@ -2,10 +2,9 @@
 doing  
 对GPU实现作梯度检查 3h -> wz  
 完善beam search，实现过小概率的剪枝，支持100大小的beam size，以及对UNKOWN词作处理 3h -> wqs  
-使用json格式存取模型 3h -> wqs
+应用attention模型，丰富上下文表示 5h -> wqs  3h 完成了相关重构  
 
 pending  
-应用attention模型，丰富上下文表示 5h -> wqs  3h 完成了相关重构  
 
 高  
 检查cuda各计算过程的执行时间，看有无需优化之处 1h  
@@ -15,6 +14,7 @@ beam size 增大到500
 应用BERT 20h  
 应用GRU模型到对话 2h  
 应用GPU实现解码过程 1h  
+使用json格式存取模型 3h -> wqs  
   
 低  
 应用page locked memory，提升cuda加速效果 3h  
