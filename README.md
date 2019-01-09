@@ -3,6 +3,7 @@ doing
 对GPU实现作梯度检查 3h -> wz  
 应用attention模型，丰富上下文表示 5h -> wqs  3h 完成了相关重构  
 json格式实现模型存取 5h -> wqs  
+在对话模型中应用BERT词向量 10h -> wqs
 
 pending  
 
