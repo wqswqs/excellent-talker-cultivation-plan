@@ -11,6 +11,7 @@ pending
 检查cuda各计算过程的执行时间，看有无需优化之处 1h  
 
 中  
+应用pkuseg-python，对语料重新分词
 beam size 增大到500  
 应用BERT 20h  
 应用GRU模型到对话 2h  
