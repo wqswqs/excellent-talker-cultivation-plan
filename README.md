@@ -2,12 +2,12 @@
 doing  
 对GPU实现作梯度检查 3h -> wz  
 应用attention模型，丰富上下文表示 5h -> wqs  3h 完成了相关重构  
-在对话模型中应用BERT词向量 10h -> wqs
 
 pending  
 
 高  
 检查cuda各计算过程的执行时间，看有无需优化之处 1h  
+在对话模型中应用BERT词向量 10h -> wqs  
 
 中  
 应用pkuseg-python，对语料重新分词
