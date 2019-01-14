@@ -25,7 +25,7 @@ beam size 增大到500
 弄清目前各参数的显存占用情况 3h  
 
 done  
-json格式实现模型存取 5h -> wqs  5h
+json格式实现模型存取 5h -> wqs  5h  
 完善beam search，实现过小概率的剪枝，支持100大小的beam size，以及对UNKOWN词作处理 3h -> wqs 2h  
 重构N3LDG中dropout相关代码，从Node类中移除dropout，改用专门的DropoutNode 3h -> wqs 3h  
 开发交互模式 1h -> wqs 1h  
